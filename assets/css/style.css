@@ -1,0 +1,148 @@
+:root {
+	--dark: #434242;
+	--white: #fff;
+	--yellow:#ffea00;
+	--grey: #727272;
+	--white-two: #f2f2f2f2;
+}
+body, * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Rubik', sans-serif;
+}
+
+header {
+	background-image: url("../img/header.jpg");
+	background-position: center;
+	background-size: auto;
+	height: 80vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.intro {
+	width: 30%;
+	padding: .3em;
+	font-size: 1.2rem;
+	text-align: left;
+	border-radius: 5px 20px 5px;
+	background: rgba(0,0,0, 0.3);
+	margin: auto 0 auto 20%;
+	color: var(--white-two);
+}
+
+.blog-name {
+	font-family: 'Exo', sans-serif;
+	color: var(--yellow);
+	text-decoration: none;
+}
+.blog-name > a {
+	text-decoration: none;
+}
+
+.blog-name > a:hover {
+	color: var(--yellow);
+}
+
+.blog-name > a:visited {
+	color: var(--yellow);
+}
+
+.blog-name > a:link {
+	color: var(--yellow);
+}
+
+.nav {
+	padding: 1em 3em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 10vh;
+}
+
+.nav-top {
+	background: rgb(0,0,0);
+	background: linear-gradient(180deg, rgba(0,0,0,0.29873947870163686) 0%, rgba(0,212,255,0) 100%);
+}
+
+.nav-fixed {
+	width: 100vw;
+	position: fixed;
+	background: black;
+}
+
+.nav-link {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: var(--white);
+	padding: .5rem 1rem;
+}
+	
+.nav-link:hover{
+	border: 1px solid var(--yellow);
+	border-radius: 10px;
+}
+
+.nav-link:active {
+	background: var(--yellow);
+	border-radius: 10px;
+	color: var(--dark)
+}
+
+.post {
+	border-radius: 5px;
+	background: var(--white-two);
+	width: 980px;
+	margin: 10px auto;
+	-webkit-box-shadow: 0px 3px 15px 6px rgba(0,0,0,0.22);
+	box-shadow: 0px 3px 15px 6px rgba(0,0,0,0.22);
+}
+
+.media {
+	margin: 0 auto;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	display: flex;
+	width: 70%;
+}
+
+.media > img {
+	margin-right: .7rem;
+	border-radius: 5px;
+}
+
+.media-body > h3, .introducao{
+	padding-bottom: .5rem;
+	color: var(--dark);
+}
+
+.media-body > h3 > a {
+	color: black;
+	text-decoration: none;
+}
+
+.media-body > h3 > a:hover {
+	text-decoration: underline;
+}
+
+.more-links {
+	color: #968a00;
+	text-decoration: none;
+}
+
+.more-links:hover {
+	text-decoration: underline;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 10vh;
+	background: black;
+	color: var(--yellow);
+	font-size: 1.2rem;
+}
