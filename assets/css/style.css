@@ -16,6 +16,7 @@ header {
 	background-image: url("../img/header.jpg");
 	background-position: center;
 	background-size: auto;
+	background-repeat: no-repeat;
 	height: 80vh;
 	width: 100%;
 	display: flex;
