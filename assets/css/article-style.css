@@ -97,6 +97,7 @@ body, * {
 .subtitle {
 	margin-top: 1.4rem;
 	font-size: 1.4em;
+	background: var(--yellow);
 }
 
 .subtopic {
@@ -118,6 +119,35 @@ p {
 
 .list-block {
 	margin-left: 2rem;
+}
+
+.image-box{
+	margin: 1.3em auto 1em auto;
+	width: 20%;
+	height: 18%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.image-box > img {
+	height: 300px;
+}
+
+.movie-info {
+	padding-top: 1rem;
+	text-align: center;
+}
+
+.image {
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	color: var(--grey);
+	justify-content: center;
+	text-align: justify;
+	font-size: .8em;
 }
 
 footer {
