@@ -150,6 +150,11 @@ p {
 	font-size: .8em;
 }
 
+.video {
+	display: flex;
+	justify-content: center;
+}
+
 footer {
 	display: flex;
 	align-items: center;
