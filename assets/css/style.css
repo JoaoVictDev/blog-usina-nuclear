@@ -149,3 +149,26 @@ footer {
 	color: var(--yellow);
 	font-size: 1.2rem;
 }
+
+@media screen and (min-width: 414px) {
+
+	
+	header {
+		height: 50vh;
+	}
+
+	.intro {
+		width: 80%;
+		font-size: 3em;
+		margin: 50px auto;
+	}
+
+	.media-body {
+		font-size: 2em;
+	}
+
+	.nav, .nav-link{
+		font-size: 1.5em;
+	}
+	
+}
